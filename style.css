@@ -1,1 +1,85 @@
+/*The code below styles the list with the id "epidosdes" */
+#episodes{
+    font-style:italic;
+    border: 2px solid;
+}
+#jiu{
+        color:rgb(50,50,255)
+      }
+      
+#star{
+        color:rgb(255,0,0)
+      }
+      /*The code below styles all tables*/
+table{
+        background-color:lightblue
+        margin:25px;
+        padding:10px;
+        animation-name:animation1;
+        animation-duration:4s;
+        animation-name:animation2;
+        animation-duration:4s;
+      }
+      /*The code below styles all h1 tags*/
+h1{
+    color:rgb(0,100,160);
+    font-family:courier new;
+    font-style:bold;
+    text-shadow:1px 1px;
+}
+/*The code below styles the body*/
+body{
+        background-color:rgb(255,204,153)
+      }
+      
+.days-of-week{
+        color:blue
+      }
+      
+      .Sport{
+        color:blue
+      }
+      
+      table{
+        background-color:lightblue
+      }
+      
+      li{
+        color:darkred
+      }
+      
+      a{
+        color:red
+      }
+      /*The code below styles all images*/
+img{
+    float:none;
+    height: 45;
+    display: block;
+    animation-name:animation2;
+    animation-duration:4s;
+}
 
+img:hover {
+    filter:sepia(100%)
+}
+
+h3:hover{
+    background-color:pink;
+}
+
+
+@keyframes animation1 {
+  from {background-color: yellow;}
+  to {background-color: lightblue;}
+}
+
+@keyframes animation2 {
+    from{
+        margin:50px;
+    }
+    
+    to{
+        margin:25px;
+    }
+}
