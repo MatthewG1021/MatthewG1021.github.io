@@ -15,10 +15,6 @@ table{
         background-color:lightblue
         margin:25px;
         padding:10px;
-        animation-name:animation1;
-        animation-duration:4s;
-        animation-name:animation2;
-        animation-duration:4s;
       }
       /*The code below styles all h1 tags*/
 h1{
@@ -56,8 +52,7 @@ img{
     float:none;
     height: 45;
     display: block;
-    animation-name:animation2;
-    animation-duration:4s;
+    
 }
 
 img:hover {
@@ -69,17 +64,6 @@ h3:hover{
 }
 
 
-@keyframes animation1 {
-  from {background-color: yellow;}
-  to {background-color: lightblue;}
-}
 
-@keyframes animation2 {
-    from{
-        margin:50px;
-    }
-    
-    to{
-        margin:25px;
-    }
-}
+
+
